@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>React Hello World</title>
+   </head>
+   <body>
+      <div id="application-root"></div>
+      <script
+         src="https://unpkg.com/react@16/umd/react.development.js"></script>
+      <script
+         src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+      <script
+         src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+      <script type="text/babel">
+         function App() {
+           return (
+         	<header>
+         		<h1>
+         			<u>Sally Student</u>
+         		</h1>
+             		<h2 class='education'>
+         			<u>Education</u>
+         		</h2>
+             		<p class='oxford'>
+         			<b>University of Oxford -
+                       <em>Bachelor of Science in Astrobiology</em>
+                     </b>
+                   </p>
+                       <ul class = 'first'>
+                     <li>3.98 GPA</li>
+                     <li>President's List - 2013, 2014, 2015, 2016</li>
+                     <li>Treasurer of the National Meme Society</li>
+                     <li>Internationally Ranked #1 in Badminton</li>
+                   </ul>
+                           <h2 class ='employmenthistory'>
+                   <u>Employment History</u>
+                 </h2>
+                           <p class= 'museum'>
+                     Museum of Astrobioloy -
+                        Tour Guide 
+                       | June 2013 - Feb 2016
+                   </p>
+                               <ul class = 'museumlist'>
+                       <li>
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi augue lectus, maximus eu odio non, venenatis feugiat risus. Etiam ultricies malesuada condimentum. 
+                       </li>
+                       <li>
+                         Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse at lacinia nibh, ac venenatis lorem. Curabitur iaculis posuere augue.
+                       </li>
+                       <li>
+                         Nullam at erat volutpat, imperdiet velit ac, tincidunt tortor. Proin scelerisque sollicitudin vehicula.
+                       </li>
+                     </ul>
+                               <p class = 'yungfirst'>
+                     <b>Yung Johnny's Burgers -</b>
+                         Cashier
+                         | March 2011 - May 2013
+                   </p>
+                     <ul>
+                       <li>
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi augue lectus, maximus eu odio non, venenatis feugiat risus. Etiam ultricies malesuada condimentum. 
+                       </li>
+                       <li>
+                         Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse at lacinia nibh, ac venenatis lorem. Curabitur iaculis posuere augue.
+                       </li>
+                       <li>
+                         Nullam at erat volutpat, imperdiet velit ac, tincidunt tortor. Proin scelerisque sollicitudin vehicula.
+                       </li>
+                     </ul>
+                           <h2><u>Contant Information</u></h2>
+               <h3>Sally Student</h3>
+                         
+                   <a    href="mailto:SallyStudent@uoxford.edu">SallyStudent@uoxford.edu</a><br/>
+                   <a href="tel:1-311-555-2368">1-311-555-2368</a><br/>
+                   <img class="fit-picture"
+                     src="https://www.shutterbug.com/images/styles/600_wide/public/promompi3718.png"
+                     alt="A photo of beautiful waterfalls and a hill." />
+         	</header>
+           
+           );
+         };
+         
+         
+         ReactDOM.render(
+           <App />,
+           document.querySelector('#application-root')
+         );
+      </script>
+   </body>
+</html>
